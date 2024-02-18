@@ -9,3 +9,5 @@ tiktoken
 huggingface-hub
 pypdf
 llama-cpp-python
+langchain-community==0.0.19
+langchain-core==0.1.23
