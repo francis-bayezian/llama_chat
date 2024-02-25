@@ -19,7 +19,7 @@ import tempfile
 
 #REPLICATE_API_TOKEN = r8_0sgx1AppZ8iSEsmk3aw8tryp3mupLL73U7mzC
 
-key =  st.sidebar.text_input("Enter a password", type="password")
+key =  st.sidebar.text_input("Replicate API token", type="password")
 
 os.environ["REPLICATE_API_TOKEN"] = key
 
