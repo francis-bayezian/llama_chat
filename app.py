@@ -17,8 +17,13 @@ import replicate
 from dotenv import load_dotenv
 import tempfile
 
+#REPLICATE_API_TOKEN = r8_0sgx1AppZ8iSEsmk3aw8tryp3mupLL73U7mzC
 
-load_dotenv()
+key =  st.sidebar.text_input("Enter a password", type="password")
+
+os.environ["REPLICATE_API_TOKEN"] = key
+
+#load_dotenv()
 
 
 def initialize_session_state():
